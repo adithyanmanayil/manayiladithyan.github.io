@@ -1,0 +1,94 @@
+/*
+635985
+443C68
+393053
+18122B
+*/
+*{
+	left: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	color: #D4ADFC;
+	background-color: #352F44;
+ 	/*font-family: "Oswald", sans-serif;*/
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+}
+body{
+	background-color: #18122B;
+	height: 100vh;
+}
+
+/*12 grids*/
+.container-fluid{width: 100%; max-width: 2560px; height: auto;
+	margin: 0 auto; height: 100vh;
+	overflow: hidden;
+}
+.container{width: 100%; height: auto; margin:  auto;}
+.col1{width: 10%; height: auto; margin: 0 auto; padding: 1.5%; float: left;}
+.col2{width: 25%; height: auto; margin: 0 auto; padding: 1.5%; float: left;}
+.col3{width: 50%; height: auto; margin: 0 auto; padding: 1.5%; float: left;}
+.col4{width: 75%; height: auto; margin: 0 auto; padding: 1.5%; float: left;}
+.col5{width: 100%; height: auto; margin: 0 auto; padding: 1.5%;}
+.clr{float: none;}
+
+
+.navbar{
+	padding: 2%;
+}
+.navbar .col1{
+	margin: 10px;
+	padding:  10px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border-radius: 10px;
+	transition: all 0.8s ease;
+}
+.navbar .col1:hover{
+	background-color: #443C68;
+	cursor: pointer;
+}
+
+/*about*/
+.contact{
+	height: auto;
+	background-color: #635985;
+}
+.contact>label{
+	color: #18122B;
+	font-weight: 500;
+	background-color: #635985;
+}
+
+/*home*/
+.name{
+	text-align: left;
+	padding-top: 50px;
+}
+.name h1{
+	font-size: 50px;
+	transition: all 0.8s ease;
+}
+.name h1:hover{
+	transform: rotate3d(0, 0, 1, 2deg);
+}
+.name h1, .name h2{
+	font-weight: 500;
+	text-align: left;
+}
+.pic img{
+	width: 60%;
+	transition: all 0.8s ease;
+}
+.pic img:hover{
+	transform: scale(1.2);
+}
+.color-palette{
+	transition: all 0.8s ease;
+}
+.color-palette:hover{
+	transform: scale(1.8);
+}
